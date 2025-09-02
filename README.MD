@@ -14,9 +14,7 @@ Getting an LLM to "understand" a P&ID is not straightforward. The core challenge
 
 1.  **Symbol Recognition**: P&IDs are visual and symbolic. An LLM needs to first identify all the different symbols for pumps, valves, instruments, etc. This can be approached with custom Computer Vision models (like CNNs) or pre-trained object detection models (like YOLO).
 
-2.  **Connection Tracing**: Simply knowing what equipment is on the diagram isn't enough. The connections, process flows, and control loops between components are often more important than the components themselves. An LLM must understand this connectivity to reason about the system.
-
-To solve the connectivity problem, the industry is moving towards structured data formats. An open standard called **DEXPI** (Data Exchange in the Process Industry) aims to create a standardized, machine-readable format for P&IDs. [3, 5] This allows for interoperability between different engineering tools and systems. [3, 4] Other approaches, like representing the P&ID as a graph, can also be effective.
+2.  **Connection Tracing**: Simply knowing what equipment is on the diagram isn't enough. The connections, process flows, and control loops between components are often more important than the components themselves. An LLM must understand this connectivity to reason about the system. To solve the connectivity problem, the industry is moving towards structured data formats. An open standard called **DEXPI** (Data Exchange in the Process Industry) aims to create a standardized, machine-readable format for P&IDs. [3, 5] This allows for interoperability between different engineering tools and systems. [3, 4] Other approaches, like representing the P&ID as a graph, can also be effective.
 
 ## My Approach: Structured JSON
 
