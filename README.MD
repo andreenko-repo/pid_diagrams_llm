@@ -4,7 +4,7 @@ This project is a proof-of-concept application demonstrating the use of a Large 
 
 The application provides an interface to load a P&ID drawing, explore it with zoom and pan controls, and ask complex questions in a natural language chat.
 
-!screenshots/image_1.png
+![Screenshot of the App](https://github.com/andreenko-repo/pid_diagrams_llm/blob/main/screenshots/image_1.png)
 
 ## The Challenge: Making LLMs "Understand" P&IDs
 
